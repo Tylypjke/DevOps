@@ -1,0 +1,5 @@
+  130  git remote add gitlab https://gitlab.com/Tylypjke/lesson_3.git
+  131  git remote -v
+  132  git push -u gitlab main
+  133  git remote -v
+  134  history
