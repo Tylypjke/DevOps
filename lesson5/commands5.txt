@@ -1,0 +1,11 @@
+git clone https://github.com/Tylypjke/DevOps.git
+
+cd DevOps/lesson5/
+
+git status
+
+git commit -m "Moved and deleted"
+
+git add "*"
+
+git push
