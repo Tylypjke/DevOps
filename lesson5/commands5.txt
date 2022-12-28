@@ -12,4 +12,36 @@ git push
 
 nano fileotvetov.txt
 
+git add "*"
+
+git commit -m "lesson5"
+
 git clone https://github.com/hashicorp/terraform.git
+
+git show aefea
+
+cd terraform/
+
+git show aefea
+
+git show 85024d3
+
+git show b8d720
+
+git log v0.12.23..v0.12.24 --pretty=oneline
+
+git show v0.12.23
+
+git log --oneline --no-abbrev-commit > gitlog.txt - тут нет 0.12.24 и 0.12.23
+
+git grep -p providerSource
+
+git log -L :providerSource:provider_source.go
+
+git grep -p globalPluginDirs
+
+git log -L :globalPluginDirs:plugins.go
+
+git log -S synchronizedWriters --oneline
+
+git show 5ac311e2a9
