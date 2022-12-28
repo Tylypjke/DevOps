@@ -123,9 +123,8 @@ commit 5ac311e2a91e381e2f52234668b49ba670aa0fe5
 
 Author: Martin Atkins <mart@degeneration.co.uk>
 
-
-/d/devops/lesson5
-git status
-git add "*"
-git commit -m "lesson5_3"
+/d/devops/lesson5  
+git status  
+git add "*" 
+git commit -m "lesson5_3"  
 git push
