@@ -4,8 +4,12 @@ cd DevOps/lesson5/
 
 git status
 
-git commit -m "Moved and deleted"
-
 git add "*"
 
+git commit -m "lesson5"
+
 git push
+
+nano fileotvetov.txt
+
+git clone https://github.com/hashicorp/terraform.git
