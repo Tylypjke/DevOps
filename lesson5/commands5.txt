@@ -14,7 +14,7 @@ nano fileotvetov.txt
 
 git add "*"
 
-git commit -m "lesson5"
+git commit -m "lesson5_1"
 
 git clone https://github.com/hashicorp/terraform.git
 
@@ -45,3 +45,23 @@ git log -L :globalPluginDirs:plugins.go
 git log -S synchronizedWriters --oneline
 
 git show 5ac311e2a9
+
+cd ..
+
+git status
+
+git add "*"
+
+git commit -m "lesson5_2"
+
+git push
+
+
+
+git status
+
+git add "*"
+
+git commit -m "lesson5_3"
+
+git push
