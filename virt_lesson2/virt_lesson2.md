@@ -89,3 +89,44 @@ PS C:\>
 
 # Задача 4
 
+Удалил vagrant в Windows 
+
+Установил vagrant в WSL
+
+Добавил inventory (hosts), ansible, playbook, Vagrantfile в директорию с .vagrant
+
+Настройка Vagrant в WSL для использования VirtualBox в Windows
+
+export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+
+export PATH="${PATH}:/mnt/c/Program Files/Oracle/VirtualBox"
+
+При ошибке WARNING: UNPROTECTED PRIVATE KEY FILE!, требуется поменять права на ssh ключ 
+
+Права в WSL просто так не поменять
+
+chmod 600 /mnt/c/Users/admin/.vagrant/machines/server1.netology/virtualbox/private_key 
+
+wsl chmod 600 /mnt/c/Users/admin/.vagrant/machines/server1.netology/virtualbox/private_key 
+
+Не работает 
+
+Помогло создать файл   
+/etc/wsl.conf  
+c информацией  
+[automount]  
+options = "metadata"  
+
+перезагрузил WSL
+
+команда chmod выполнена 
+
+vagrant up
+
+vagrant provision
+
+vagrant ssh
+
+docker установлен 
+
+Скриншот 2
