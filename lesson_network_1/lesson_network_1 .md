@@ -57,8 +57,11 @@ Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36   
 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36  
 
+Скриншот 2
+
 Страница загрузилась за Load: 1.74 s  
-Самый долгий запрос скриншот 3
+
+Самый долгий запрос в скриншоте 3
 
 # 3 Какой IP адрес у вас в интернете?
 
