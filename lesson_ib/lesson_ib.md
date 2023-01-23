@@ -4,7 +4,7 @@
 
 ## Решение
 
-Скриншот 1
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/1.JPG)
 
 ## Задача 2 
 
@@ -12,7 +12,7 @@
 
 ## Решение
 
-Скриншот 2
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/2.JPG)
 
 ## Задача 3 
 Установите apache2, сгенерируйте самоподписанный сертификат, настройте тестовый сайт для работы по HTTPS.
@@ -106,7 +106,7 @@ sudo systemctl restart apache2
 
 config.vm.network "forwarded_port", guest: 443, host: 4433
 
-Скриншот 3
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/3.JPG)
 
 ## Задача 4 
 Проверьте на TLS уязвимости произвольный сайт в интернете (кроме сайтов МВД, ФСБ, МинОбр, НацБанк, РосКосмос, РосАтом, РосНАНО и любых госкомпаний, объектов КИИ, ВПК ... и тому подобное).
@@ -122,7 +122,7 @@ cd testssl.sh
 
 ./testssl.sh -U --sneaky https://netology.ru/
 
-Скриншот 4
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/4.JPG)
 
 ## Задача 5 
 
@@ -141,7 +141,15 @@ ssh-keygen
 
 Подключился по ssh к двум серверам 
 
-Скриншот 5 и 6
+
+
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/5.JPG)
+
+
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/6.JPG)
+
+
+
 
 ## Задача 6
 Переименуйте файлы ключей из задания 5.   
@@ -167,7 +175,7 @@ Host vm1
 
 ssh vm1
 
-Скриншот 7
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/7.JPG)
 
 ## Задача 7
 Соберите дамп трафика утилитой tcpdump в формате pcap, 100 пакетов. Откройте файл pcap в Wireshark.
@@ -183,4 +191,4 @@ tcpdump: listening on ens32, link-type EN10MB (Ethernet), snapshot length 262144
 
 открыл файл в wireshark
 
-Скриншот 8
+![image](https://github.com/Tylypjke/DevOps/blob/7516e1ad42017b8ce4c98ecfd651b6d3c66d6e15/lesson_ib/8.JPG)
