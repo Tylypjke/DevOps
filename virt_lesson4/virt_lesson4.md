@@ -65,6 +65,10 @@ yc compute image list
 
 Скриншот 1 и 2
 
+![image](https://github.com/Tylypjke/DevOps/blob/a4873994797bdd4f8c708c8b37ef2b0c3c200e10/virt_lesson4/1.JPG)
+
+![image](https://github.com/Tylypjke/DevOps/blob/a4873994797bdd4f8c708c8b37ef2b0c3c200e10/virt_lesson4/2.JPG)
+
 
 ## Задача 2
 
@@ -110,6 +114,8 @@ Initializing provider plugins...
 
 скриншот 3
 
+![image](https://github.com/Tylypjke/DevOps/blob/a4873994797bdd4f8c708c8b37ef2b0c3c200e10/virt_lesson4/3.JPG)
+
 ## Задача 3
 
 Создать ваш первый готовый к боевой эксплуатации компонент мониторинга, состоящий из стека микросервисов.
@@ -117,3 +123,5 @@ Initializing provider plugins...
 ## Решение
 
 скриншот 4
+
+![image](https://github.com/Tylypjke/DevOps/blob/a4873994797bdd4f8c708c8b37ef2b0c3c200e10/virt_lesson4/4.JPG)
