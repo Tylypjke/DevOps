@@ -13,6 +13,8 @@ show bgp x.x.x.x/32
 
 Скриншот 1
 
+![image](https://github.com/Tylypjke/DevOps/blob/a4094fba800e104c1060178e1f62f14e69031824/lesson_network_3/1.JPG)
+
 ## Задача 2
 
 Создайте dummy0 интерфейс в Ubuntu. Добавьте несколько статических маршрутов. Проверьте таблицу маршрутизации.
@@ -37,6 +39,8 @@ sudo ip ro add 30.0.0.0/24 via 30.0.0.30
 
 Скриншот 2
 
+![image](https://github.com/Tylypjke/DevOps/blob/a4094fba800e104c1060178e1f62f14e69031824/lesson_network_3/2.JPG)
+
 ## Задача 3
 
 Проверьте открытые TCP порты в Ubuntu, какие протоколы и приложения используют эти порты?  
@@ -53,6 +57,8 @@ sudo ss -tnlp
 
 Скриншот 3
 
+![image](https://github.com/Tylypjke/DevOps/blob/a4094fba800e104c1060178e1f62f14e69031824/lesson_network_3/3.JPG)
+
 ## Задача 4
 
 Проверьте используемые UDP сокеты в Ubuntu, какие протоколы и приложения используют эти порты?
@@ -68,6 +74,8 @@ sudo ss -unap
 
 Скриншот 4
 
+![image](https://github.com/Tylypjke/DevOps/blob/a4094fba800e104c1060178e1f62f14e69031824/lesson_network_3/4.JPG)
+
 ## Задача 5
 
 Используя diagrams.net, создайте L3 диаграмму вашей домашней сети или любой другой сети, с которой вы работали.
@@ -75,3 +83,5 @@ sudo ss -unap
 ## Решение
 
 Скриншот 5 
+
+![image](https://github.com/Tylypjke/DevOps/blob/a4094fba800e104c1060178e1f62f14e69031824/lesson_network_3/5.PNG)
