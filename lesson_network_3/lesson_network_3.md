@@ -84,4 +84,4 @@ sudo ss -unap
 
 Скриншот 5 
 
-![image](https://github.com/Tylypjke/DevOps/blob/a4094fba800e104c1060178e1f62f14e69031824/lesson_network_3/5.PNG)
+![image](https://github.com/Tylypjke/DevOps/blob/a4094fba800e104c1060178e1f62f14e69031824/lesson_network_3/5.JPG)
