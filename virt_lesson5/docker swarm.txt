@@ -1,0 +1,62 @@
+https://itisgood.ru/2020/10/19/kak-ustanovit-docker-swarm-na-ubuntu-20-04/
+
+
+
+
+sudo nano /etc/hosts
+10.128.0.17	manager-01
+10.128.0.31	worker-01
+10.128.0.26	worker-02
+
+
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+sudo apt-get update
+apt-cache policy docker-ce
+sudo apt install docker-ce
+
+sudo systemctl status docker
+
+
+sudo usermod -aG docker yc-user
+
+на manager  
+
+sudo docker swarm init --advertise-addr 10.128.0.17
+
+на хостах
+sudo docker swarm join --token SWMTKN-1-1brf022uxbfsgwavmy8w75ct9vv561p6jxflr8t774zvs85cvp-6e7ehx20lquxesww0k0gjmpnj 10.128.0.17:2377
+
+на манагере
+sudo docker node ls
+
+sudo docker service create --name web --replicas 2 --replicas-max-per-node 1 nginx:alpine
+
+docker service ls
+
+---------
+
+https://gitlab.com/k11s-os/lessons/docker/-/tree/main/Swarm
+
+sudo su 
+
+устанавливаем Portainer
+
+curl -L https://downloads.portainer.io/ce2-16/portainer-agent-stack.yml -o portainer-agent-stack.yml
+
+docker stack deploy -c portainer-agent-stack.yml portainer
+
+https://158.160.58.68:9443
+
+копируем confiig файлы в portainer
+
+в stack .env.sample и docker-compose.yml
+
+запускам 
+
+
+
+
+
