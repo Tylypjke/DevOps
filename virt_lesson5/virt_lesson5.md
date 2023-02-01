@@ -80,6 +80,7 @@ docker service ls
 
 Скриншот 1  
 
+![image](https://github.com/Tylypjke/DevOps/blob/3645f73b8f01fcb0a04a1122b54b8d7e85c3f4f5/virt_lesson5/1.JPG)
 
 ## Задача 3
 
@@ -109,3 +110,5 @@ https://158.160.58.68:9443
 запускаем 
 
 Скриншот 2
+
+![image](https://github.com/Tylypjke/DevOps/blob/3645f73b8f01fcb0a04a1122b54b8d7e85c3f4f5/virt_lesson5/2.JPG)
