@@ -120,15 +120,15 @@ SELECT grantee, table_catalog, table_name, privilege_type FROM information_schem
 
 список пользователей с правами над таблицами test_db:
 
-spisok.jpg
+![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/spisok.jpg)
 
 описание таблиц (describe):
 
-ops.jpg
+![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/ops.jpg)
 
 итоговый список БД после выполнения пунктов выше:
 
-spisoktabl.jpg
+![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/spisoktabl.jpg)
 
 ## Задача 3
 
@@ -170,7 +170,7 @@ SELECT COUNT (*) FROM orders;
 
 SELECT COUNT (*) FROM clients;
 
-result.jpg
+![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/result.jpg)
 
 ## Задача 4
 
@@ -200,7 +200,7 @@ UPDATE clients SET заказ=(select id from orders where наименован�
 
 SELECT* FROM clients WHERE заказ IS NOT NULL;
 
-4.jpg
+![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/4.jpg)
 
 ## Задача 5
 
@@ -212,7 +212,7 @@ SELECT* FROM clients WHERE заказ IS NOT NULL;
 
 EXPLAIN SELECT * FROM clients WHERE заказ IS NOT NULL;
 
-5.jpg
+![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/5.jpg)
 
 Сканирование таблицы clients методом Seq Scan (последовательного чтения данных)
 
