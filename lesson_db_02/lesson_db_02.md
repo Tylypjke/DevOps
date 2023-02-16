@@ -268,6 +268,8 @@ sudo docker exec -it pg12_new bash
 
 ls -lah /home/
 
+exit
+
 psql -U postgres -d test_db -f /home/psbackup1.backup
 
 ```
