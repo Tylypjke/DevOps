@@ -56,9 +56,9 @@ mysql -u root -p
 
 \s
 
-Скриншот 1
 
-(https://github.com/netology-code/virt-homeworks/tree/virt-11/06-db-03-mysql/test_data) 
+
+![image](https://github.com/Tylypjke/DevOps/blob/a8efd06d860cce83106f2433dfe101a333456355/lesson_db_03_MySQL/1.JPG) 
 
 
 SHOW DATABASES;
@@ -70,6 +70,10 @@ SHOW TABLES;
 select count(*) from orders where price > 300;
 
 Скриншот 2
+
+
+
+![image](https://github.com/Tylypjke/DevOps/blob/a8efd06d860cce83106f2433dfe101a333456355/lesson_db_03_MySQL/2.JPG) 
 
 ## Задача 2
 
@@ -107,7 +111,7 @@ SELECT * from INFORMATION_SCHEMA.USER_ATTRIBUTES where USER = 'test';
 
 Скриншот 3
 
-![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/spisoktabl.jpg)
+![image](https://github.com/Tylypjke/DevOps/blob/a8efd06d860cce83106f2433dfe101a333456355/lesson_db_03_MySQL/3.JPG)
 
 ## Задача 3
 
@@ -136,7 +140,7 @@ SHOW PROFILES;
 
 Скриншот 4
 
-![image](https://github.com/Tylypjke/DevOps/blob/bbb1708344f5e279d140f467999c852cb882bd65/lesson_db_02/result.jpg)
+![image](https://github.com/Tylypjke/DevOps/blob/a8efd06d860cce83106f2433dfe101a333456355/lesson_db_03_MySQL/4.JPG)
 
 ## Задача 4
 
